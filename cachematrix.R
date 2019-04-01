@@ -6,9 +6,10 @@
 makeCacheMatrix <- function(x = matrix()) {
 
 ## Initialize the inverse property
-	i <- NULL
+	i 
 ## Method to set the matrix
 	set <- function(matrix){
+		m <<- matrix
 		i <<- NULL
 	}
 
